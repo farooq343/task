@@ -1,0 +1,986 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+.header {
+    display: flex;
+
+}
+
+.header h3 {
+
+    color: #fff;
+    font-family: "Alegreya", serif;
+
+
+}
+
+.logo {
+    right: 0;
+    text-transform: capitalize;
+
+    font-size: 30px;
+    margin: 45px 0px 0px 45px;
+}
+
+.hangerbar img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 40px;
+    margin-top: 45px;
+}
+
+.main {
+    background: linear-gradient(rgba(102, 98, 98, 0.4), rgba(81, 81, 83, 0.4)), url('slider-1.jpg') no-repeat center center/cover;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+
+}
+
+.text1,.text2,.btn
+
+ {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Adjust as needed */
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.text1 {
+    margin-top: 130px;
+    font-size: 80px;
+    font-family: "Abril Fatface", times;
+   
+    line-height: 1;
+    font-weight: bold
+}
+
+.text2 {
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: "Abril Fatface", serif;
+    text-transform: capitalize;
+}
+
+.btn button {
+    margin-top: 40px;
+    padding: 17px 30px;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 13px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* second main strat */
+.main2 {
+    padding: 90px 70px 100px 70px;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+  
+    border-bottom: 1px solid black;
+    
+}
+
+.imgmain2 {
+
+    width: 50%;
+    height: 610px;
+}
+
+.textmain2 {
+
+    width: 50%;
+    height: 610px;
+    padding: 80px 30px 30px 50px;
+}
+
+.imgmain2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.main2h2h,
+h1 {
+    padding-top: 80px;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-family: "Abril Fatface", serif;
+    font-weight: bold;
+
+}
+
+.main2p,
+p {
+    font-family: "Nunito", sans-serif;
+    line-height: 35px;
+    margin-top: 20px;
+    color: rgb(61, 62, 63);
+
+}
+/* SECTOIN 3 here */
+.main3{
+  background-color: #f8f7f7;    
+  padding: 120px 45px 150px 45px;
+  width: auto;
+  height: 180vh;
+ box-sizing: border-box;
+  
+  
+
+}
+.main3sec1 h2{
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    font-style: normal;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+   
+}
+.main3sec1 {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    flex-direction: column;
+    
+    
+}
+
+.main3sec1 p {
+  
+    line-height: 2;
+    width: 700px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    color: rgb(117, 113, 113);
+
+}
+.miansec2{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    flex-direction: row;
+ margin-top: 20px;
+    height: 110vh;
+    width: 91vw;
+    flex-wrap: wrap;
+    
+}
+.itemimg, img{
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    margin-top: -10px;
+    
+}
+.item1, .item2, .item3, .item4, .item5, .item6{
+    width: 350px;
+    height: 300px;
+   
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+}
+
+.item1 h1, .item2 h1, .item3 h1, .item4 h1, .item5 h1, .item6 h1{
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -50px;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+.item1 p,.item2 p,.item3 p,.item4 p,.item5 p,.item6 p{
+    text-align: center;
+    color: rgb(65, 63, 63);
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 2px;
+    
+}
+/* 4 div */
+.main4 {
+width: auto;
+height: 500px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.main4 p{
+    width: 750px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px; 
+    padding-bottom: 80px;
+}
+.main4 h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+    width: 900px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+
+/* slider here */
+
+.slider-container {
+    width: 90vw;
+    height: 110vh;
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 15px;
+}
+
+.next {
+    right: 15px;
+}
+
+.dots {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: white;
+}
+.slidermian {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background-color: #f0f0f0;
+}
+.main5{
+   
+    width: auto;
+    height: auto;
+    background: #65c0ba;
+    margin-top: -200px;
+    padding-top: 250px;
+}
+.blogcontent{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+.blogcontent p{
+    width: 700px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    line-height: 40px;
+    color: rgb(231, 234, 236);
+    font-size: 18px;
+    font-weight: normal;
+}
+.blogcontent h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 70px;
+    width: 900px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+.itemblog1, .itemblog2, .itemblog3{
+    width: 350px;
+    height: 530px;
+   
+    margin: 13px;
+}
+.mian5pic {
+    height: 800px;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    padding: 75px 50px 150 50px;
+align-items: center;
+justify-content: center;
+}
+.itemblog1 img, .itemblog2 img, .itemblog3 img{
+width: 100%;
+height: 40%;
+overflow: hidden;
+
+}
+.blogall{
+    padding: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: -5px;
+
+}
+.blogall h1{
+    margin-top: -70px;
+    font-family: "Abril Fatface", serif;
+    letter-spacing: -1px;
+    font-size: 29px;
+}
+.blogall p{
+font-size: 15px;
+color: rgb(149, 148, 148);
+font-style: normal;
+font-family: "Nunito", sans-serif;
+font-weight: 100;
+letter-spacing: 1px;
+line-height: 28px;
+}
+.blogall h6{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: "Nunito", sans-serif;
+    color: #b0afaf;
+    font-style: normal;
+    font-weight: 100;
+}
+.custumer{
+    width: auto;
+    height: 130vh;
+   
+    background-color: #f1efef;
+}
+.custumerh1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 200px;
+   
+    padding: 100px auto 150px auto;
+}
+.custumerh1 h1{
+    margin-top: -60px;
+    font-size: 70px;
+    font-family: "Abril Fatface", serif;
+    letter-spacing: -1px;
+}
+.Citem1, .Citem2, .Citem3{
+width: 380px;
+height: 400px;
+margin: 10px;
+padding: 0px 15px 15px 15px;
+}
+.Citemmain img{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+   
+    border-radius: 50%;
+   
+}
+.Citemmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.Citemmain p{
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    font-style: italic;
+}
+.Citemmain h6{
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #acabab;
+    margin-top: 30px;
+}
+.star-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+}
+
+.star {
+    font-size: 1.4rem;
+    color: #ccc;
+    margin: 0 0.1rem;
+    position: relative;
+}
+
+.star.filled {
+    color: #65c0ba;
+}
+
+.star.half {
+    background: linear-gradient(90deg, #65c0ba 50%, #ccc 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-text {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.destination{
+
+    height: 140vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Dpara{
+   
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+.Dpara p{
+    width: 680px;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+}
+.Dpara h1{
+    font-weight: 900;
+    font-family: "Abril Fatface", serif;
+    font-size: 50px;
+    letter-spacing: -2px;
+
+}
+.Dimg{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 60vh;
+    
+}
+.Ditem1, .Ditem2 ,.Ditem3, .Ditem4{
+   
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    overflow: hidden;
+
+}
+.Ditem1 img, .Ditem2 img,.Ditem3 img, .Ditem4 img{
+    width: 100%;
+    height: 180px;
+}
+.Ditem1 h1, .Ditem2 h1,.Ditem3 h1, .Ditem4 h1{
+  
+    margin-top: -70px;
+}
+.star1{
+    display: flex;
+}
+.star1 p{
+    margin-top: 0px;
+    margin-left: 45px;
+    color: #a09797;
+    font-style: italic;
+}
+.Ditem1 h1, .Ditem2 h1, .Ditem3 h1, .Ditem4 h1{
+    font-family: "Abril Fatface", serif;
+   
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic
+    
+}
+.footer{
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+    background: #1a1a1a;;
+   
+
+}
+.Fitemall{
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+}
+.Fitem1, .Fitem2,.Fitem3, .Fitem4{
+    width: 300px;
+    height: 400px;
+    margin: 0px 5px 50px 5px;
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0px 30px;
+  
+
+}
+.ul li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+.ul li a{
+ 
+    text-decoration: none;
+    margin: 10px 0px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+.ul li a:hover{
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.Fitem1 h1, .Fitem2 h1,.Fitem3 h1, .Fitem4 h1{
+color: #fff;
+font-family: "Abril Fatface", serif;
+   
+font-size: 20px;
+font-weight: 900;
+margin-bottom: 10px;
+
+}
+.Fitem3 h6{
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 15px;
+    color: #fff;
+}
+.Fitem3 p{
+    margin-top: -3px;
+  color: rgba(255, 255, 255, 0.7);
+
+}
+.Fitem4 p{
+    margin-top: 3px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.lastitem hr{
+    width: 90%;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.2);
+
+}
+.lastitem p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+}
+.lastitem span{
+    color: rgba(255, 255, 255, 0.9);
+}
+.input-container {
+    position: relative;
+    width:180px;
+   
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: transparent;
+    text-transform: capitalize;
+  font-size: 13px;
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+}
+
+.input-container .icon {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input-container button .fa-paper-plane {
+    font-size: 19px;
+}
+.input-container button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+   margin-top: -40px;
+   margin-left: 180px;
+   
+}
+
+
+
+/* Media queries for responsiveness */
+
+/* For tablets (screens 768px and below) */
+@media (max-width: 768px) {
+    .header, .slider-container, .blog, .Fitemall {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo h3 {
+        font-size: 1.5em;
+    }
+
+    .hangerbar img {
+        width: 25px;
+        
+    }
+
+    .main h3, .main2h2, .main3sec1 h2, .main4 h1, .destination .Dpara h1, .Fitem1 h1, .Fitem2 h1, .Fitem3 h1, .Fitem4 h1 {
+        font-size: 1.5em;
+    }
+
+    .main p, .main2p, .main3sec1 p, .main4 p, .destination .Dpara p, .footer .Fitemall p {
+        font-size: 1em;
+    }
+
+    .main img, .main2 img, .main3 img, .main4 img, .slidermian img, .main5 img, .custumer img, .destination img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .miansec2 div, .Dimg div {
+        width: 45%;
+        margin: 10px 0;
+    }
+
+    .footer .Fitemall div {
+        width: 45%;
+        margin: 10px 0;
+    }
+}
+
+/* For mobile phones (screens 576px and below) */
+@media (max-width: 576px) {
+    .main, .main2, .main3, .main4, .slidermian, .main5, .custumer, .destination, .footer, .lastitem {
+        padding: 1em;
+    }
+    .main{
+      width: 100vw;
+      height: auto;
+      overflow: hidden;
+      padding: 1em;
+    }
+    .main2{
+       height: 50em;
+       margin-bottom: 20em;
+      
+   
+       
+    }
+    .textmain2 p:nth-child(3){
+        display: none;
+    }
+    .textmain2 h1{
+        margin-top: -7em;
+        margin-bottom: 4em;
+        font-size: 20px;
+    }
+    .textmain2 p{
+        margin-top: -5em;
+        margin-bottom: 20em;
+    }
+
+    .header, .slider-container, .blog, .Fitemall {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo h3 {
+        font-size: 1em;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -190px;
+    }
+
+    .hangerbar img {
+        width: 20px;
+    }
+
+    .main h3, .main2h2, .main3sec1 h2, .main4 h1, .destination .Dpara h1, .Fitem1 h1, .Fitem2 h1, .Fitem3 h1, .Fitem4 h1 {
+        font-size: 1.2em;
+    }
+
+    .main p, .main2p, .main3sec1 p, .main4 p, .destination .Dpara p, .footer .Fitemall p {
+        font-size: 0.9em;
+    }
+
+    .main img, .main2 img, .main3 img, .main4 img, .slidermian img, .main5 img, .custumer img, .destination img {
+        max-width: auto;
+        height: auto;
+    }
+    .imgmain2 img{
+        display: none;
+    }
+    .main3{
+        margin-top: -50em;
+        padding: 2em;
+        width: auto;
+        height: 138em;
+        margin-bottom: -1em;
+    }
+    .prev, .next{
+       margin-top: -23em;
+    }
+    .main4 h1,.main3sec1 h2{
+      font-size: 1.7em;    
+      word-spacing: 3px;
+    }
+    .main4 p, .main3sec1 p{
+        width: 22em;
+        font-size: 16px;
+    }
+    .main3sec1 h2{
+        margin-top: 20px;
+    }
+    
+    .main2 img{
+        margin-top: 150px;
+    }
+    .miansec2 div, .Dimg div, .footer .Fitemall div {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .textmain2 {
+        overflow: hidden;
+        width: auto;
+    }
+    .main5{
+        margin-top: -53em;
+        padding-top: 1em ;
+        height: 315vh;
+        margin-bottom: -35em;
+    }
+    .blogcontent h1{
+        font-size: 2em;
+        margin-top: 2em;
+    }
+    .blogcontent p{
+        width: 20em;
+    }
+    .mian5pic{
+        flex-direction: column;
+        margin-top: 20em;
+    }
+    .dots{
+        display: none;
+    }
+    .mian5pic h1{
+    font-style: normal;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    }
+    .custumer{
+        margin-top: 0em;
+        height: auto;
+        background-color: #fff;
+    }
+    .custumerh1 h1{
+        font-size: 25px;
+    }
+    .Citemmain{
+        flex-direction: column;
+       
+        background-color: #fff;
+    }
+    .Citem1 ,.Citem2, .Citem3{
+       
+        background-color: #eeedf1;
+    }
+    .destination{
+        margin-top: -5em;
+
+    }
+    .Dpara h1{
+     font-size: 30px;
+     letter-spacing: 1px;
+     
+    }
+    .Dpara p{
+        width: 20em;
+    }
+    .Dimg{
+        flex-direction: row;
+       flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .Ditem1, .Ditem2, .Ditem3, .Ditem4{
+       margin: 15em;
+       border: 1px solid black;
+    }
+    .footer{
+        margin-top: 35em;
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .Fitemall{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .Fitem1, .Fitem2, .Fitem3, .Fitem4{
+        padding: 5em;
+        margin: -2em;
+    }
+    .blog{
+       
+        margin-bottom: -50em;
+      padding: 5em 10em;
+      
+    }
+    .slides{
+        margin-top: -1em;
+        
+    }
+    
+    .blogcontent p{
+        width: 12em;
+    }
+    .blogcontent h1{
+        margin-top: 5em;
+    }
+    .Citem1, .Citem2, .Citem3{
+        padding: 1em 2em;
+    }
+    .main4 h1{
+       font-size: 25px;
+    }
+   .custumer{
+    padding: 10em;
+   }
+   .custumer{
+    margin-top: 25em;
+   }
+   .custumerh1 h1{
+    font-size: 30px;
+    white-space: nowrap;
+   }
+   .Citem1, .Citem2, .Citem3{
+    width: 90vw;
+    height: auto;
+   }
+   .footer{
+    margin-top: 40em;
+   }
+   .hangerbar img{
+    width: 28px;
+    height: 28px;
+  }
+  .text1{
+    font-size: 35px;
+  }
+  .text2{
+    font-size: 25px;
+  }
+  .main2h2{
+    white-space: nowrap;
+    margin-left: -20px;
+  }
+  .main2p{
+    margin-left: -20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .main3sec1 p{
+    width: 80%;
+  }
+  .main3sec1 h2{
+   font-size: 25px;
+  }
+    
+}

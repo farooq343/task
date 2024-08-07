@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .main {
+    background: linear-gradient(rgba(102, 98, 98, 0.4), rgba(81, 81, 83, 0.4)), url('slider-2.jpg') no-repeat center center/cover;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .full{
+           
+            width: 100%;
+            height: 270vh;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #f1f1f1;
+           
+        }
+        .ist{
+        
+            width: 65%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 5px 100px 5px;
+            
+        }
+        .second{
+            width: 35%;
+            height: 100%;
+            padding: 50px 60px 100px 0px;
+    
+        }
+        .second input{
+           padding: 15px;
+           width: 100%;
+           border: 2px solid rgb(129, 129, 129);
+        
+        }
+        .con1{
+            padding: 20px;
+            width: 25vw;
+            height: 15vh;
+            margin-left: 60px;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-color: #FFF;
+        }
+        .conimg{
+           background-color: #FFF;
+           margin: 20px;
+            width: 350px;
+            height: 420px;
+        }
+        .conimg img{
+            width: 350px;
+            height: 270px;
+        }
+        .conimg p{
+            color: #ced4da;
+            margin-left: 50px;
+            font-size: 18px;
+            margin-top: 10px;
+            font-family: "Nunito", sans-serif;
+        }
+        .conimg h1{
+            margin-left: 50px;
+            font-size: 30px;
+            margin-top: -78px;
+            font-family: "Abril Fatface", serif;
+            letter-spacing: -1px;
+        }
+
+        .con2{
+            width: 25vw;
+            margin-left: 60px;
+            margin-top: 20px;
+            padding: 5px 20px;
+            background-color: #FFF;
+        }
+        #post{
+            font-family: "Nunito", sans-serif;
+            margin-bottom: 20px;
+        }
+        .con2img{
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .con2img h1{
+            font-size: 16px;
+            font-family: "Abril Fatface", serif;
+            margin-left: -98px;
+            margin-top: -50px;
+            font-size: 16px;
+            font-weight: 900;
+            letter-spacing: 0px;
+
+
+        }
+        .con2img p{
+            font-size: 16px;
+            white-space: nowrap;
+            margin-top: -5px;
+            margin-left: -10px;
+            font-size: 12px;
+            font-family: "Nunito", sans-serif;
+            
+        }
+        .con2img img{
+            width: 120px;
+            height: 75px;
+            margin-top: 0px;
+            margin-right: 20px;
+            
+        }
+        .con3{
+           
+            display: flex;
+            flex-direction: column;
+            font-family: "Nunito", sans-serif;
+            padding: 0px 30px 40px 30px;
+          margin-left: 60px;
+            margin-top: 20px;
+            background-color: #FFF;
+           
+           
+        }
+        .ptag{
+            margin-top: -35px;
+            margin-left: 200px;
+            font-family: "Nunito", sans-serif;
+        }
+        @media (max-width: 768px) {
+            .text1{
+            font-size: 30px;
+        }
+        .logo{
+            font-size: 25px;
+        }
+            .full{
+              
+               display: inline;
+               padding: 0;
+                
+            }
+            .conimg{
+                margin-left: 150px;
+            }
+          
+            .conimg{
+           width: 80vw;
+           height: auto;
+           margin-right: 75px;
+          
+        
+        }
+        .ist{
+          
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .con1{
+            width: 70vw;
+            
+        }
+        .second{
+          
+            width: 100vw;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+        .con2{
+            width: 90vw;
+            margin-right: 0px;
+            margin-left: 0.9em;
+            border: 2px solid rgb(235, 235, 235);
+        }
+        .con3{
+            width: 90vw;
+            margin-right: 0px;
+            margin-left: 0.9em;
+            border: 2px solid rgb(235, 235, 235);
+        }
+        .footer{
+            margin-top: 2em;
+        }
+        .hangerbar img{
+          width: 28px;
+          height: 28px;
+        }
+
+            
+        }
+
+        
+        
+    </style>
+</head>
+<body> 
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <h3>hepta</h3>
+            </div>
+            <div class="hangerbar">
+
+               <a href="menubar.html"><img src="menu.png" alt="Logo"></a>
+            </div>
+        </div>
+        <div class="text1">
+           Blog
+        </div>
+        <div class="text2">
+            A free template by colorlib. Download and share!
+        </div>
+        
+    </div>
+
+
+
+
+
+
+       <div class="full">
+        <div class="ist">
+<div class="conimg">
+    <img src="slider-6.jpg" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+</div>
+<div class="conimg">
+    <img src="slider-5.jpg" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+</div>
+<div class="conimg">
+    <img src="slider-6.jpg" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+</div>
+<div class="conimg">
+    <img src="slider-5.jpg" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+</div>
+<div class="conimg">
+    <img src="slider-6.jpg" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+</div>
+<div class="conimg">
+    <img src="slider-5.jpg" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+</div>
+        </div>
+        <div class="second">
+       <div class="con1">
+       <input type="text" name="search" placeholder="search">
+    </div>
+
+    <!-- here -->
+      <div class="con2">
+    <p id="post">Popular Post</p>
+    <div class="con2img">
+        <img src="slider-8.webp" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+    </div>
+    <div class="con2img">
+        <img src="slider-6.jpg" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+    </div>
+    <div class="con2img">
+        <img src="slider-5.jpg" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+    </div>
+    <div class="con2img">
+        <img src="slider-6.jpg" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+    </div>
+    <div class="con2img">
+        <img src="slider-4.jpg" alt="">
+    <p>February 26, 2018</p>
+    <h1>Free Template by Colorlib</h1>
+    </div>
+</div>
+<div class="con3">
+    <p>Categories</p>
+        <p>Events</p>
+        <p class="ptag">(12)</p>
+        <hr>
+        <p>Resto bar</p>
+        <p class="ptag">(4)</p>
+        <hr>
+        <p>Celebration</p>
+        <p class="ptag">(23)</p>
+        <hr>
+        <p>Promos</p>
+        <p class="ptag">(8)</p>
+        <hr>
+
+</div>
+        </div>
+       </div>
+
+
+
+
+
+
+    <div class="footer">
+        <div class="Fitemall">
+            <div class="Fitem1">
+                <h1>Quick Link</h1>
+        
+                <ul>
+                    <div class="ul">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Rooms</a></li>
+                </div>
+                    
+                </ul>
+            </div>
+            <div class="Fitem2">
+                <h1>Support</h1>
+                <ul>
+                    <div class="ul">
+                    <li><a href="">Our Location</a></li>
+                    <li><a href="">The Hosts</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Restaurant</a></li>
+                </div>
+                </ul>
+            </div>
+            <div class="Fitem3">
+                <h1>Contact Info</h1>
+                <h6>Address:</h6>
+                <p>98 West 21th Street, Suite 721 New York NY 10016</p>
+                <h6>Phone:</h6>
+                <p>(+1) 435 3533</p>
+                <h6>Email:</h6>
+                <p>info@yourdomain.com</p>
+            </div>
+            <div class="Fitem4">
+                <h1>Subscribe</h1>
+                <p>Sign up for our newsletter</p>
+                <div class="input-container">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="lastitem">
+            <hr>
+            <p>Copyright © 2024 All rights reserved | This template is made with  by<span> Colorlib</span></p>
+            <p><span>Muhammad Farooq</span></p>
+            
+        </div>
+        </div>
+   
+</body>
+</html>

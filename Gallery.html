@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body,html{
+         overflow-x: hidden;      
+        }
+ .main {
+    background: linear-gradient(rgba(102, 98, 98, 0.4), rgba(81, 81, 83, 0.4)), url('slider-2.jpg') no-repeat center center/cover;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+        }
+        .istimg{
+       
+            width: auto;
+            height: 92vh;
+        
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            padding: 100px 100px 0 100px;
+            padding-bottom: 0;
+        }
+        .istimg img{
+            width: 250px;
+            height: 180px;
+            margin-bottom: 60px;
+        }
+        .secondimg{
+            width: auto;
+            height: 65vh;
+            padding: 20px 100px 0 100px;
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .secondimg img{
+            height: 60vh;
+            width: 40vw;
+        }
+        .thirdimg{
+            height: 200px;
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0px 100px 0 100px;
+            margin-bottom: 100px;
+            
+
+        }
+        .thirdimg img{
+            width: 250px;
+            height: 180px;
+           
+        }
+        @media (max-width: 768px) {
+            .hangerbar img{
+          width: 28px;
+          height: 28px;
+        }
+            .text1{
+            font-size: 30px;
+        }
+        .logo{
+            font-size: 25px;
+        }
+        .istimg{
+            margin-top: 2em;
+            flex-direction: row;
+            padding: 0px;
+        }
+        .thirdimg{
+          display: none;
+        }
+        .secondimg{
+           
+            display: none;
+        }
+        .footer{
+            margin-top: 74em;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <h3>hepta</h3>
+            </div>
+            <div class="hangerbar">
+
+               <a href="menubar.html"><img src="menu.png" alt="Logo"></a>
+            </div>
+        </div>
+        <div class="text1">
+           Gallery
+        </div>
+        <div class="text2">
+            A free template by colorlib. Download and share!
+        </div>
+        
+    </div>
+
+
+    <div class="istimg">
+        <img src="slider-6.jpg" alt="">
+        <img src="slider-7.webp" alt="">
+        <img src="slider-5.jpg" alt="">
+        <img src="slider-8.webp" alt="">
+
+        <img src="slider-5.jpg" alt="">
+        <img src="slider-8.webp" alt="">
+        <img src="slider-6.jpg" alt="">
+        <img src="slider-7.webp" alt="">
+    </div>
+    <div class="secondimg">
+        <img src="slider-6.jpg" alt=""><img src="slider-5.jpg" alt="">
+    </div>
+    <div class="thirdimg">
+        <img src="slider-5.jpg" alt="">
+        <img src="slider-8.webp" alt="">
+        <img src="slider-6.jpg" alt="">
+        <img src="slider-7.webp" alt="">
+    </div>
+
+    <div class="footer">
+        <div class="Fitemall">
+            <div class="Fitem1">
+                <h1>Quick Link</h1>
+        
+                <ul>
+                    <div class="ul">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Rooms</a></li>
+                </div>
+                    
+                </ul>
+            </div>
+            <div class="Fitem2">
+                <h1>Support</h1>
+                <ul>
+                    <div class="ul">
+                    <li><a href="">Our Location</a></li>
+                    <li><a href="">The Hosts</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Restaurant</a></li>
+                </div>
+                </ul>
+            </div>
+            <div class="Fitem3">
+                <h1>Contact Info</h1>
+                <h6>Address:</h6>
+                <p>98 West 21th Street, Suite 721 New York NY 10016</p>
+                <h6>Phone:</h6>
+                <p>(+1) 435 3533</p>
+                <h6>Email:</h6>
+                <p>info@yourdomain.com</p>
+            </div>
+            <div class="Fitem4">
+                <h1>Subscribe</h1>
+                <p>Sign up for our newsletter</p>
+                <div class="input-container">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="lastitem">
+            <hr>
+            <p>Copyright © 2024 All rights reserved | This template is made with  by<span> Colorlib</span></p>
+            <p><span>Muhammad Farooq</span></p>
+            
+        </div>
+        </div>
+</body>
+</html>

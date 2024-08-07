@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hepta</title>
+    <style>
+        .main{
+            margin: 0;
+            display: flex;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+            width: 90vw;
+            height: 90vh;
+        }
+        li{
+            list-style: none;
+            justify-content: space-between;
+            display: flex;
+            margin: 25px 0px 20px 120px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 43px;
+            color: black;
+            font-weight: bold;
+            font-family: "Abril Fatface", serif;
+        }
+        a:hover{
+            cursor: pointer;
+           color: #65c0ba;
+           transition: 0.3s;
+        }
+        a:active{
+            color: #65c0ba;
+        }
+        li:focus{
+            color: #65c0ba;
+        }
+        .img{
+            width: 100%;
+            height: 7vh;
+         
+        }
+        .img img{
+            width: 30px;
+            height: 30px;
+            float: right;
+            margin-right: 30px;
+            margin-top: 10px;
+        }
+        /* 
+         font-family: "Abril Fatface", serif; 
+        for heading
+            font-family: "Nunito", sans-serif; 
+            */
+            @media (max-width: 576px) {
+                .main{
+                    margin-left: -50px;
+                   white-space: nowrap;
+                   
+                }
+                li,a{
+                    font-size: 35px;
+                    margin-bottom: 35px;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div class="img">
+       <a href="index.html"><img src="close.png" alt=""></a>
+    </div>
+   <div class="main">
+    <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="Hotel.html"> <li>Hotel</li></a>
+        <a href="About Us.html"><li>About Us</li></a>
+        <a href="Gallery.html"><li>Gallery</li></a>
+        <a href="News.html"><li>News</li></a>
+        <a href="Contact.html"><li>Contact</li></a>
+    </ul>
+   </div>
+</body>
+</html>

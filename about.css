@@ -1,0 +1,44 @@
+
+#team{
+    font-size: 40px;
+}
+.teamimg{
+    width: auto;
+    height: 200vh;
+    margin-top: -100px;
+}
+.teammember{
+    display: flex;
+    width: 350px;
+    height: 470px;
+    flex-direction: column;
+    margin: 0px 8px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.teammember img{
+    width: 100%;
+    height: 350px;
+}
+.teammember p{
+    color: #ced4da;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: 20px 0px 0px 15px;
+}
+.teammember h1{
+    margin: -80px 0px 0px 15px;
+    letter-spacing: -1px;
+    font-family: "Abril Fatface", serif;
+    font-size: 30px;
+}
+.teamimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
